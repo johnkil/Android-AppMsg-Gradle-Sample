@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.github.johnkil.appmsg.gradle_sample;
+package io.github.johnkil.appmsg.gradle_sample.stock;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-import com.actionbarsherlock.app.SherlockActivity;
 import com.devspark.appmsg.AppMsg;
 
 /**
@@ -30,7 +30,7 @@ import com.devspark.appmsg.AppMsg;
  *
  * @author Evgeny Shishkin
  */
-public class MainActivity extends SherlockActivity {
+public class MainActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
